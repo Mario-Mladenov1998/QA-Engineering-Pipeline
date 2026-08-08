@@ -4,7 +4,7 @@ A QA Automation project focused on backend API testing using Java, Spring Boot, 
 
 ## Technologies
 
-- Java 17
+# Java 17
 - Spring Boot
 - Maven
 - JUnit 5
