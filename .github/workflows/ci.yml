@@ -23,5 +23,5 @@ jobs:
           distribution: 'temurin'
 
       - name: Run tests
-        working-directory: backend
+        working-directory: backend/backend
         run: ./mvnw test
