@@ -3,13 +3,14 @@
 A QA Automation project focused on backend API testing using Java, Spring Boot, JUnit 5 and MockMvc.
 
 ## Technologies
-- # Java 17
-- # Spring Boot
-- # Maven
-- # JUnit 5
-- # MockMvc
-- # Git
-- # GitHub
+
+- Java 17
+- Spring Boot
+- Maven
+- JUnit 5
+- MockMvc
+- Git
+- GitHub
 
 ## Backend
 
@@ -19,18 +20,32 @@ The project contains a simple Spring Boot backend with a health endpoint.
 
 ```http
 GET /health
+```
 
 The endpoint returns the current application status.
-Automated Tests
+
+## Automated Tests
+
 The project currently contains the following automated tests:
-Verify that the /health endpoint returns HTTP 200.
-Verify that the /health endpoint returns the expected response body.
-Verify that an unknown endpoint returns HTTP 404.
-Running the Tests
-From the project root, run: cd backend
-mvn test.
+
+- Verify that the `/health` endpoint returns HTTP 200.
+- Verify that the `/health` endpoint returns the expected response body.
+- Verify that an unknown endpoint returns HTTP 404.
+
+## Running the Tests
+
+From the project root, run:
+
+```bash
+cd backend
+mvn test
+```
 
 All automated tests should pass successfully.
+
+## Project Structure
+
+```text
 QA-Engineering-Pipeline/
 └── backend/
     ├── src/
@@ -48,5 +63,7 @@ QA-Engineering-Pipeline/
     │
     ├── pom.xml
     └── mvnw
-Goal
+
+## Goal
+
 The goal of this project is to build a practical QA Engineering pipeline and gradually expand it with API automation, integration testing, negative testing and CI/CD.
