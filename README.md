@@ -4,12 +4,12 @@ A QA Automation project focused on backend API testing using Java, Spring Boot, 
 
 ## Technologies
 - # Java 17
-- Spring Boot
-- Maven
-- JUnit 5
-- MockMvc
-- Git
-- GitHub
+- # Spring Boot
+- # Maven
+- # JUnit 5
+- # MockMvc
+- # Git
+- # GitHub
 
 ## Backend
 
